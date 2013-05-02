@@ -25,6 +25,7 @@ module Feedzirra
         element :"dc:Date", :as => :published
         element :"dcterms:created", :as => :published
 
+        element :imageLink, :as => :image_link
 
         element :"dcterms:modified", :as => :updated
         element :issued, :as => :published
