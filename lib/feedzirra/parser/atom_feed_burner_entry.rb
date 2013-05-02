@@ -13,6 +13,8 @@ module Feedzirra
       element :summary
       element :content
 
+      element :imageLink, :as => :image_link
+
       element :"media:content", :as => :image, :value => :url
       element :enclosure, :as => :image, :value => :href
 
